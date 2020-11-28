@@ -1,0 +1,46 @@
+{
+  "id": "d9f04a5d-1c55-4046-8f7c-85d115d85192",
+  "version": "2.0",
+  "name": "Facebook_UI",
+  "url": "https://www.facebook.com",
+  "tests": [{
+    "id": "c2e2d084-d63f-4ee3-b7a4-0e6ac4d568d8",
+    "name": "Facebook_UI_Automation",
+    "commands": [{
+      "id": "db183287-2a05-48a2-8495-31aa48eb1498",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e8edeb5-a488-423c-a14c-902abfe0ca21",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c7b4b05-76dd-477b-8efd-ec5f936cccc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pmt1y7k9",
+      "targets": [
+        ["css=.pmt1y7k9", "css:finder"],
+        ["xpath=//div[@id='mount_0_0']/div/div/div/div[3]/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "423e6f75-db04-473b-bac9-d4c595f239ef",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2e2d084-d63f-4ee3-b7a4-0e6ac4d568d8"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": []
+}
